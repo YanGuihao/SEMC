@@ -1,13 +1,13 @@
-# SEMC
+# 🌟 SEMC
 
-## Introduction
+## 📘 Introduction
 
 This is the implementation of **[SEMC: Structure-Enhanced Mixture-of-Experts Contrastive Learning for Ultrasound Standard Plane Recognition](https://doi.org/10.48550/arXiv.2511.12559)**.
 <p align="center">
   <img src="images/fig2.jpg" alt="Framework of SEMC" style="width:100%">
 </p>
 
-## Requirements
+## ⚙️ Requirements
 
 - Python == 3.8  
 - Install dependencies from `requirements.txt` using:
@@ -16,7 +16,7 @@ This is the implementation of **[SEMC: Structure-Enhanced Mixture-of-Experts Con
 pip install -r requirements.txt
 ```
 
-## Dataset Preparation
+## 🗂️ Dataset Preparation
 
 Our collected **Liver Standard Plane Ultrasound Dataset (LP2025)** is available at the following link:
 
