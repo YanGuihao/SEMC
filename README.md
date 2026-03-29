@@ -24,4 +24,15 @@ Our collected **Liver Standard Plane Ultrasound Dataset (LP2025)** is available 
 
 
 ## 🚀 Train
-**Updating...**  (Training instructions and scripts are coming soon!)
+To train the SEMC model, use the SEMC_train.py script. You can specify the dataset path, batch size, and epochs.
+```bash
+python ./code/SEMC_train.py \
+  --dataset_path ./data/lp2025 \
+  --batch_size 32 \
+  --epochs 200
+```
+## ✅ Test
+After training is complete, you can evaluate the model using the SEMC_test.py script. Make sure to specify the path to the trained checkpoint.
+```bash
+python ./code/SEMC_test.py
+```
