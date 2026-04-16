@@ -32,7 +32,7 @@ python ./code/SEMC_train.py \
   --epochs 200
 ```
 ## ✅ Test
-After training is complete, you can evaluate the model using the SEMC_test.py script. Make sure to specify the path to the trained checkpoint.
+After training is complete, you can evaluate the model using the SEMC_test.py script. Make sure to specify the path to the trained 👉 **[checkpoint.](https://huggingface.co/yanguihao/checkpoint/tree/main)**
 ```bash
 python ./code/SEMC_test.py
 ```
